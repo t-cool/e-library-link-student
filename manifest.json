@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "eライブラリ links - student",
+  "version": "1.0",
+  "description": "eライブラリ links",
+  "icons": {
+    "48": "icons/icon48.png",
+    "96": "icons/icon96.png"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "action": {
+    "default_icon": "icons/icon48.png",
+    "default_popup": "index.html",
+    "default_title": "e-library Link"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["./index.js"]
+    }
+  ]
+}
