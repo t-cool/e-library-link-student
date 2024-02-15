@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "eライブラリ links - student",
+  "name": "eライブラリ Links 児童生徒用",
   "version": "1.0",
-  "description": "eライブラリ links",
+  "description": "eライブラリ Links 児童生徒用",
   "icons": {
     "48": "icons/icon48.png",
     "96": "icons/icon96.png"
@@ -13,7 +13,7 @@
   "action": {
     "default_icon": "icons/icon48.png",
     "default_popup": "index.html",
-    "default_title": "e-library Link"
+    "default_title": "eライブラリ Links 児童生徒用"
   },
   "content_scripts": [
     {
